@@ -23,8 +23,7 @@ eureka:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 ribbon:
-  ServerListRefreshInterval: 1000    #
-  \\\\刷新服务列表源的间隔时间
+  ServerListRefreshInterval: 1000    # 刷新服务列表源的间隔时间
 spring:
   application:
     name: eureka
